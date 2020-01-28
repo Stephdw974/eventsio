@@ -132,6 +132,7 @@ class EventController extends Controller
 
     public function deleteEvent(Evenement $Evenement)
     {
+        $Evenement->sessions()->participations()->delete();
         $Evenement->sessions()->delete();
         $Evenement->delete();
         return redirect()->route('events.showAllEvents');
@@ -140,6 +141,7 @@ class EventController extends Controller
     public function deleteSession(Evenement $Evenement, Session $Session)
     {
         $Session->delete();
+        $Session->participations()->delete();
         return redirect()->route('events.showOneEvent', $Evenement->id);
     }
 
@@ -154,5 +156,4 @@ class EventController extends Controller
         }
         return redirect()->route('home.showMe');
     }
-
 }

@@ -4,7 +4,7 @@
 
 @section('content')
 
-
+@auth
 <div class="container bg-event border rounded mb-4 text-center text-sm-left">
   <div class="btn-group">
     <button class="btn btn-event">Participer à la session</button>
@@ -16,11 +16,11 @@
       @csrf
       {{ method_field('DELETE') }}
     </form>
-
+ 
     @endif
   </div>
 </div>
-
+@endauth
 
 <div id="Session" class="container bg-white border rounded p-0 mb-4 text-center text-sm-left">
   <h1 class="border-bottom m-0 p-3">{{ $Session->name }}</h1>

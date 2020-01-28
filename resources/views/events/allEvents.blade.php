@@ -16,7 +16,7 @@
   @foreach($allEvents as $e)
   <div evenement-id="{{ $e->id }}" class="evtItem">
     <h4 class="mb-0">{{ $e->name }}</h4>
-    {{ $e->description }}
+    {!! html_entity_decode($e->description) !!}
   </div>
   @endforeach
 </div>
