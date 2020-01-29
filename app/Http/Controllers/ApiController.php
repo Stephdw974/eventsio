@@ -23,7 +23,7 @@ class ApiController extends Controller
 
     function getEventSessions(Evenement $Evenement)
     {
-        return json_encode($Evenement->sessions->get());
+        return json_encode($Evenement->sessions->all());
     }
 
 
