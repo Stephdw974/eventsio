@@ -12,10 +12,10 @@
 
 <div class="container bg-white rounded border p-3">
   <div class="row">
-    <div class="col-4">
+    <div class="col-sm-4">
       <svg class="img-fluid w-100" id="barcode"></svg>
     </div>
-    <div class="col-8 py-1">
+    <div class="col-sm-8 py-1">
       <h2>{{ $Participation->session->name }}</h2>
       @if($Participation->flashed_at)
       Ce QR Code a été scanné le {{ $Participation->flashed_at }}
