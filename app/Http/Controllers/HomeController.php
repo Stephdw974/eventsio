@@ -25,7 +25,7 @@ class HomeController extends Controller
     {
 
         $session = $Participation->session;
-        dd($session->event()->get());
+        // dd($session->event()->get());
         
         return view('home.qr', compact('Participation'));
     }
