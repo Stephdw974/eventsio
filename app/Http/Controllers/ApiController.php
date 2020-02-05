@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
+use App\Session;
 use App\Evenement;
 use App\Participation;
-use App\Session;
 use Illuminate\Http\Request;
 
 class ApiController extends Controller
@@ -51,8 +52,16 @@ class ApiController extends Controller
             Auth::user($u);
             return $u;
         }
-        
+
     }
+
+    
+    public function getUserData($userID) {
+        $user = User::find(1);
+        return json_encode($user->participations->all());
+
+    }
+
 
     function scanQrCode($data)
     { 
