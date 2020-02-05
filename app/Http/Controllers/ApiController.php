@@ -52,7 +52,6 @@ class ApiController extends Controller
         $sessionID = explode("<FNC1>", $data)[0];
         $userID = explode("<FNC1>", $data)[1];
 
-        dd($sessionID);
         $participation = Participation::where([['session_id', $sessionID], ['user_id', $userID]])->get();
 
         if (count($participation) == 1) {
