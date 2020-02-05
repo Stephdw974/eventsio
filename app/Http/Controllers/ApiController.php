@@ -21,6 +21,10 @@ class ApiController extends Controller
         return json_encode($Evenement);
     }
 
+    function getSessions()
+    {
+        return json_encode(Session::all());
+    }
     function getSession(Session $Session)
     {
         return json_encode($Session);
