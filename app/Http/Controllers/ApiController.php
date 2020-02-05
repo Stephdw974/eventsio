@@ -52,8 +52,8 @@ class ApiController extends Controller
         $sessionID = explode("<FNC1>", $data)[0];
         $userID = explode("<FNC1>", $data)[1];
 
-        $participation = Participation::where([['session_id', intval($sessionID)], ['user_id', intval($userID)]])->get();
-dd(count($participation));
+        $participation = Participation::where([['session_id', $sessionID], ['user_id', $userID]])->get();
+        dd($participation);
         if (count($participation) == 1) {
             $participation->flashed_at = time();
             $participation->save();
