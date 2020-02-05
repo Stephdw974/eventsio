@@ -57,7 +57,6 @@ class ApiController extends Controller
         if (count($participation) == 1) {
             $participation->flashed_at = time();
             $participation->save();
-
             return json_encode('OK');
         }
         return json_encode('KO');
