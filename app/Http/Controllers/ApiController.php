@@ -33,6 +33,18 @@ class ApiController extends Controller
     }
 
 
+    function getParticipations(Evenement $Evenement, Session $Session)
+    {
+        return json_encode($Session->participations->all());
+    }
+
+
+    function getParticipationUser(Evenement $Evenement, Session $Session, Participation $Participation)
+    {
+        return json_encode($Participation->user);
+    }
+
+
     function scanQrCode($data)
     {
 

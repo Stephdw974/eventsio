@@ -16,21 +16,36 @@
       @csrf
       {{ method_field('DELETE') }}
     </form>
- 
+
     @endif
   </div>
 </div>
 @endauth
 
-<div id="Session" class="container bg-white border rounded p-0 mb-4 text-center text-sm-left">
-  <h1 class="border-bottom m-0 p-3">{{ $Session->name }}</h1>
-  <div class="p-3">
-    <b>Commence le : </b>{{ $Session->start_at }}<br>
-    <b>Termine le : </b>{{ $Session->end_at }}<br>
+<div id="Session" class="container bg-white border rounded p-3 mb-4 text-center text-sm-left">
+  <h1 class="border-bottom">{{ $Session->name }}</h1>
+  <div class="row my-4">
+    <div class="col">
+      <div class=" border rounded p-3">
+        <span class="font-weight-bold">Commence le</span>
+        <hr class="my-1">
+        {{ date('d/m/Y', strtotime($Session->start_at)) }} à {{ date('H:i', strtotime($Session->start_at)) }}
+      </div>
+    </div>
+    <div class="col">
+      <div class=" border rounded p-3">
+        <span class="font-weight-bold">Termine le</span>
+        <hr class="my-1">
+        {{ date('d/m/Y', strtotime($Session->end_at)) }} à {{ date('H:i', strtotime($Session->end_at)) }}
+      </div>
+    </div>
   </div>
 </div>
 
 
+@if($Evenement->user->id == Auth::id())
+@include('events.sessionCreation')
+@endif
 
 @endsection
 
