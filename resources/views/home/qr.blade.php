@@ -34,8 +34,7 @@
 <!-- <script src="{{ asset('js/barcode_128.js') }}"></script> -->
 <script>
   $( () => {
-    // JsBarcode("#barcode", "{{$Participation->session->id}}<FNC1>{{$Participation->user->id}}", {
-    JsBarcode("#barcode", "458<FNC1>1", {
+    JsBarcode("#barcode", "{{$Participation->session->id}}<FNC1>{{$Participation->user->id}}", {
       lineColor: "#0aa",
       width: 4,
       height: 40,
