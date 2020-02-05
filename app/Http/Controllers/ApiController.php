@@ -53,7 +53,7 @@ class ApiController extends Controller
         $userID = explode("<FNC1>", $data)[1];
 
         $participation = Participation::where([['session_id', $sessionID], ['user_id', $userID]])->first();
-        if (count($participation) == 1) {
+        if ($participation) {
             $participation->flashed_at = time();
             $participation->save();
             return json_encode('Participation valide');
