@@ -23,12 +23,12 @@
 
 <div id="Evenement" class="container bg-white border rounded-0 p-0 mb-4 text-center text-sm-left">
   <h1 class="border-bottom m-0 p-3">{{ $Evenement->name }}</h1>
-  <div class="border-bottom m-0 p-3">
+  <div id="description" class="border-bottom m-0 p-3">
     {!! html_entity_decode($Evenement->description) !!}
   </div>
   <div class="small m-0 p-3">
-    <small>Par {{ $Evenement->user->name }}</small><br>
-    <a href="https://www.google.com/maps/search/{{ $Evenement->location }}/">{{ $Evenement->location }}</a>
+    <a href="https://www.google.com/maps/search/{{ $Evenement->location }}/">{{ $Evenement->location }}</a><br>
+    <small>Par {{ $Evenement->user->name }}</small>
   </div>
 </div>
 
@@ -80,6 +80,10 @@
   #Sessions>div:hover {
     background: #efefef;
     cursor: pointer
+  }
+
+  #description p:last-of-type{
+    margin-bottom: 0;
   }
 </style>
 @endsection
