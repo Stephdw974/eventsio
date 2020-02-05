@@ -7,6 +7,7 @@ use App\Session;
 use App\Evenement;
 use App\Participation;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 
 class ApiController extends Controller
 {
