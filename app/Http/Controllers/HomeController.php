@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Evenement;
 use App\Participation;
 use Illuminate\Http\Request;
 
@@ -25,8 +26,7 @@ class HomeController extends Controller
     {
 
         $session = $Participation->session;
-        // dd($session->event()->get());
-        
-        return view('home.qr', compact('Participation'));
+        $evenement = Evenement::where('id', $Participation->session->evenement_id);        
+        return view('home.qr', compact('Participation','session', 'evenement'));
     }
 }

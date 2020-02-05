@@ -8,18 +8,30 @@
   <div class="btn-group">
     <a href="{{ route('events.showEventCreation') }}" class="btn btn-sm btn-event">Créer un nouvel événement</a>
   </div>
-</div>  
+</div>
 
 <div class="container bg-white rounded border p-3">
+  @if($Participation->flashed_at)
+  <div class="alert alert-info">
+    Ce QR Code a été scanné le {{ date('d/m/Y', strtotime($Participation->flashed_at)) }} à {{ date('H:i', strtotime($Participation->flashed_at)) }}
+  </div>
+  @endif
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-lg-4 mb-4 text-center text-lg-left">
+      <h2>Code barre</h2>
       <svg class="img-fluid w-100" id="barcode"></svg>
     </div>
-    <div class="col-sm-8 py-1">
+    <div class="col-lg-8 mb-4 text-center text-lg-left">
       <h2>{{ $Participation->session->name }}</h2>
-      @if($Participation->flashed_at)
-      Ce QR Code a été scanné le {{ $Participation->flashed_at }}
-      @endif
+
+
+      <a href="{{ route('events.showOneEvent', $Participation->session->evenement_id) }}">Acceder à la fiche de l'evenement</a>
+      <div class="row mt-3">
+        <div class="col"><b>Commence le</b>
+          <hr class="my-1">{{ date('d/m/Y', strtotime($session->start_at)) }} à {{ date('H:i', strtotime($session->start_at)) }}</div>
+        <div class="col"><b>Termine le</b>
+          <hr class="my-1">{{ date('d/m/Y', strtotime($session->start_at)) }} à {{ date('H:i', strtotime($session->start_at)) }}</div>
+      </div>
 
     </div>
   </div>
@@ -33,12 +45,13 @@
 <script src="https://cdn.jsdelivr.net/jsbarcode/3.6.0/barcodes/JsBarcode.code128.min.js"></script>
 <!-- <script src="{{ asset('js/barcode_128.js') }}"></script> -->
 <script>
-  $( () => {
+  $(() => {
     JsBarcode("#barcode", "{{$Participation->session->id}}<FNC1>{{$Participation->user->id}}", {
-      lineColor: "#0aa",
       width: 4,
-      height: 40,
-      displayValue: false
+      height: 150,
+      displayValue: false,
+      lineColor: "#329999",
+      margin: 0,
     });
   })
 </script>
