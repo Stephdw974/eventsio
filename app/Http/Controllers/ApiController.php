@@ -48,17 +48,18 @@ class ApiController extends Controller
     function scanQrCode($data)
     {
 
-        // PID1_SID4_UID1
-        $sessionID = substr(explode('_', $data)[1], 3);
-        $userID = substr(explode('_', $data)[2], 3);
+        // SID4_UID1
+        $sessionID = explode("<FNC1>", $data)[0];
+        $userID = explode("<FNC1>", $data)[1];
 
         $participation = Participation::where([['session_id', $sessionID], ['user_id', $userID]])->get();
         dd($participation);
         if (count($participation) == 1) {
             $participation->flashed_at = time();
             $participation->save();
-            return json_encode('OK');
+
+            return json_encode('Participation validée');
         }
-        return json_encode('KO');
+        return json_encode('Participation invalide');
     }
 }

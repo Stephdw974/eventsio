@@ -24,7 +24,9 @@ class HomeController extends Controller
     public function showQr(Participation $Participation)
     {
 
-        dd($Participation->session->events);
+        $session = $Participation->session;
+        dd($session->event);
+        
         return view('home.qr', compact('Participation'));
     }
 }
