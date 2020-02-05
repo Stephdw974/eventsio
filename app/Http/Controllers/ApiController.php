@@ -56,6 +56,7 @@ class ApiController extends Controller
         $password = Hash::make($password);
 
         if ($u = User::where([['email', $email], ['password', $password]])->first()) {
+            dd($u);
             Auth::login($u);
             return $u;
         }
