@@ -8,6 +8,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('/events', 'ApiController@getEvents');
 Route::get('/event/{Evenement}', 'ApiController@getEvent');
+Route::get('/session/{Session}', 'ApiController@getSession');
+
 Route::get('/event/{Evenement}/sessions', 'ApiController@getEventSessions');
 Route::get('/event/{Evenement}/session/{Session}', 'ApiController@getEventSession');
 Route::get('/event/{Evenement}/session/{Session}/participations', 'ApiController@getParticipations');

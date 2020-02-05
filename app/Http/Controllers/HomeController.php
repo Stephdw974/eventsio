@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Session;
 use App\Evenement;
 use App\Participation;
 use Illuminate\Http\Request;
@@ -12,7 +13,10 @@ class HomeController extends Controller
 
     public function showHome()
     {
-        return view('home.home');
+        $evenements = Evenement::all();
+        $sessions = Session::all();
+        $participations = Participation::all();
+        return view('home.home', compact('evenements', 'sessions', 'participations'));
     }
 
 
@@ -26,7 +30,7 @@ class HomeController extends Controller
     {
 
         $session = $Participation->session;
-        $evenement = Evenement::where('id', $Participation->session->evenement_id);        
-        return view('home.qr', compact('Participation','session', 'evenement'));
+        $evenement = Evenement::where('id', $Participation->session->evenement_id);
+        return view('home.qr', compact('Participation', 'session', 'evenement'));
     }
 }

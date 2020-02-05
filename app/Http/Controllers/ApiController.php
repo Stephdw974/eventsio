@@ -21,6 +21,11 @@ class ApiController extends Controller
         return json_encode($Evenement);
     }
 
+    function getSession(Session $Session)
+    {
+        return json_encode($Session);
+    }
+
 
     function getEventSessions(Evenement $Evenement)
     {
@@ -45,26 +50,27 @@ class ApiController extends Controller
         return json_encode($Participation->user);
     }
 
-    public function authUser($email, $password) {
+    public function authUser($email, $password)
+    {
         $password = Hash::make($password);
 
-        if($u = User::where([['email', $email], ['password', $password]])->first()) {
+        if ($u = User::where([['email', $email], ['password', $password]])->first()) {
             Auth::user($u);
             return $u;
         }
-
+        return json_encode("Erreur de connexion");
     }
 
-    
-    public function getUserData($userID) {
+
+    public function getUserData($userID)
+    {
         $user = User::find(1);
         return json_encode($user->participations->all());
-
     }
 
 
     function scanQrCode($data)
-    { 
+    {
         $sessionID = explode("<FNC1>", $data)[0];
         $userID = explode("<FNC1>", $data)[1];
 
