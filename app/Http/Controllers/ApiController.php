@@ -54,6 +54,7 @@ class ApiController extends Controller
 
         // $participation = Participation::where([['session_id', $sessionID], ['user_id', $userID]])->get();
         $participation = Participation::where([['user_id', '=', 1], ['session_id', '=', 1]])->get();
+        // $participation = Participation::all();
         dd($participation);
         if (count($participation) == 1) {
             $participation->flashed_at = time();
