@@ -19,4 +19,4 @@ Route::get('/event/{Evenement}/session/{Session}/participation/{Participation}',
 Route::get('user/{userID}/participations', 'ApiController@getUserData');
 
 Route::get('/qr/{QR_Data}', 'ApiController@scanQrCode');
-Route::post('/auth/{email}/{password}', 'ApiController@authUser');
+Route::get('/auth/{email}/{password}', 'ApiController@authUser');

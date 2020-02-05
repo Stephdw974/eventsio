@@ -15,7 +15,6 @@ class ApiController extends Controller
         return json_encode(Evenement::all());
     }
 
-
     function getEvent(Evenement $Evenement)
     {
         return json_encode($Evenement);
@@ -25,29 +24,26 @@ class ApiController extends Controller
     {
         return json_encode(Session::all());
     }
+
     function getSession(Session $Session)
     {
         return json_encode($Session);
     }
-
 
     function getEventSessions(Evenement $Evenement)
     {
         return json_encode($Evenement->sessions->all());
     }
 
-
     function getEventSession(Evenement $Evenement, Session $Session)
     {
         return json_encode($Session);
     }
 
-
     function getParticipations(Evenement $Evenement, Session $Session)
     {
         return json_encode($Session->participations->all());
     }
-
 
     function getParticipationUser(Evenement $Evenement, Session $Session, Participation $Participation)
     {
@@ -65,13 +61,11 @@ class ApiController extends Controller
         return json_encode("Erreur de connexion");
     }
 
-
     public function getUserData($userID)
     {
         $user = User::find(1);
         return json_encode($user->participations->all());
     }
-
 
     function scanQrCode($data)
     {
