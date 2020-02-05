@@ -12,7 +12,7 @@
 
 <div class="container bg-white rounded border p-3">
   @if($Participation->flashed_at)
-  <div class="alert alert-info">
+  <div class="alert alert-info small">
     Ce QR Code a été scanné le {{ date('d/m/Y', $Participation->flashed_at) }} à {{ date('H:i', $Participation->flashed_at) }}
   </div>
   @endif

@@ -44,11 +44,18 @@ class ApiController extends Controller
         return json_encode($Participation->user);
     }
 
+    public function authUser($email, $password) {
+        $password = Hash::make($password);
+
+        if($u = User::where([['email', $email], ['password', $password]])->first()) {
+            Auth::user($u);
+            return $u;
+        }
+        
+    }
 
     function scanQrCode($data)
-    {
-
-        // SID4_UID1
+    { 
         $sessionID = explode("<FNC1>", $data)[0];
         $userID = explode("<FNC1>", $data)[1];
 
