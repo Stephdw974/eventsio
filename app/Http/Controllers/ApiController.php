@@ -56,7 +56,7 @@ class ApiController extends Controller
         $password = Hash::make($password);
 
         if ($u = User::where([['email', $email], ['password', $password]])->first()) {
-            Auth::user($u);
+            Auth::login($u);
             return $u;
         }
         return json_encode("Erreur de connexion");
