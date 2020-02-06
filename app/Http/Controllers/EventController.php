@@ -148,7 +148,7 @@ class EventController extends Controller
     public function removeParticipation(Participation $Participation)
     {
         $Participation->delete();
-        return redirect()->route('home.showHome');
+        return redirect()->route('home.showMe');
     }
 
     public function joinSession(Evenement $Evenement, Session $Session)
