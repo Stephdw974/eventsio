@@ -13,7 +13,7 @@
 
         <div class="form-group">
             <label for="password">{{ __('Password') }}</label>
-            <input value="12345678" id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+            <input value="123456789" id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
             @error('password') <span class="invalid-feedback font-weight-bold" role="alert">{{ $message }}</span> @enderror
         </div>
 
