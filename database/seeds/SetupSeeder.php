@@ -37,7 +37,7 @@ class SetupSeeder extends Seeder
             for ($j = 0; $j < 4; $j++) {
                 $s = new Session;
                 $s->evenement_id = $e->id;
-                $s->name = $faker->sentences($nbWords = 4, $variableNbWords = true);
+                $s->name = $faker->sentences($nbWords = 1, $variableNbWords = true);
                 $s->start_at = $faker->dateTimeBetween($startDate = 'now', $endDate = '+1 month', $timezone = null);
                 $s->end_at = $faker->dateTimeBetween($startDate = '+1 month', $endDate = '+2 month', $timezone = null);
                 $s->save();

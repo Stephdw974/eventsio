@@ -7,7 +7,7 @@
 
         <div class="form-group">
             <label for="email">{{ __('E-Mail Address') }}</label>
-            <input value="email@test.net" id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+            <input value="email@email.net" id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
             @error('email') <span class="invalid-feedback font-weight-bold" role="alert">{{ $message }}</span> @enderror
         </div>
 

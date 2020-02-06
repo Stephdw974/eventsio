@@ -6,7 +6,11 @@
 
 <div class="container bg-event rounded border mb-4">
   <div class="btn-group">
-    <a href="{{ route('events.showEventCreation') }}" class="btn btn-sm btn-event">Créer un nouvel événement</a>
+    <a href="#" onclick="$('#unsubscribe').submit()" class="btn btn-sm btn-event">Se désinscrire</a>
+    <form action="{{ route('events.removeParticipation') }}" method="post">
+      @csrf
+      {{ method_field('DELETE') }}
+    </form>
   </div>
 </div>
 
