@@ -7,6 +7,7 @@ use App\Session;
 use App\Evenement;
 use App\Participation;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
 class ApiController extends Controller
@@ -53,14 +54,13 @@ class ApiController extends Controller
 
     public function authUser($email, $password)
     {
-        $password = Hash::make($password);
-
-        if ($u = User::where([['email', $email], ['password', $password]])->first()) {
-            dd($u);
+        $u = User::where('email', $email)->first();
+        if (Hash::check($password, $u->password)) {
             Auth::login($u);
-            return $u;
+            return json_encode($u);
+        } else {
+            return json_encode("Erreur de connexion");
         }
-        return json_encode("Erreur de connexion");
     }
 
     public function getUserData($userID)
