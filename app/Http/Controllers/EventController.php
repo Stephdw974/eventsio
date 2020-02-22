@@ -145,6 +145,12 @@ class EventController extends Controller
         return redirect()->route('events.showOneEvent', $Evenement->id);
     }
 
+    public function removeParticipation(Participation $Participation)
+    {
+        $Participation->delete();
+        return redirect()->route('home.showMe');
+    }
+
     public function joinSession(Evenement $Evenement, Session $Session)
     {
         if (count(Participation::where([['user_id', Auth::id()], ['session_id', $Session->id]])->get()) == 0) {

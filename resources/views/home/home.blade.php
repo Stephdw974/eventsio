@@ -13,7 +13,11 @@
 @endauth
 
 <div class="container bg-white rounded-0 border p-3">
-
+  <div class="row text-center">
+    <div class="col-sm my-3"><span class="font-weight-bold text-uppercase">Evenements à venir</span><hr class="my-1">{{ $evenements->count() }}</div>
+    <div class="col-sm my-3"><span class="font-weight-bold text-uppercase">Sessions créées</span><hr class="my-1">{{ $sessions->count() }}</div>
+    <div class="col-sm my-3"><span class="font-weight-bold text-uppercase">Participations à une session</span><hr class="my-1">{{ $participations->count() }}</div>
+  </div>
 </div>
 
 @endsection
