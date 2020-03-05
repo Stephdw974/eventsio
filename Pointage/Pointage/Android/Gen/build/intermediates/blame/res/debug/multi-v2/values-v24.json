@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\dupre24u\\Documents\\eventsio\\Pointage\\Pointage\\Android\\Gen\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Users\\dupre24u\\Documents\\eventsio\\windev\\Pointage\\Pointage\\Android\\Gen\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\dupre24u\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\eae68dcef5f7dc55dab70a6f57e264b7\\res\\values-v24\\values-v24.xml",

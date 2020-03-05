@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_ACCUEIL
- * Date : 06/02/2020 17:26:48
+ * Date : 05/03/2020 16:24:20
  * Version de wdjava.dll  : 24.0.175.3
  */
 
@@ -197,9 +197,9 @@ super.setNavigable(true);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(78, 166);
+super.setPositionInitiale(53, 167);
 
-super.setTailleInitiale(160, 48);
+super.setTailleInitiale(211, 63);
 
 super.setPlan(0);
 
@@ -516,9 +516,9 @@ super.setNavigable(true);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(78, 281);
+super.setPositionInitiale(53, 314);
 
-super.setTailleInitiale(160, 48);
+super.setTailleInitiale(211, 63);
 
 super.setPlan(0);
 

@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_SESSIONS
- * Date : 06/02/2020 17:38:29
+ * Date : 05/03/2020 16:24:20
  * Version de wdjava.dll  : 24.0.175.3
  */
 
@@ -734,8 +734,8 @@ vWD_donnees.setValeur(WDAPIChaine.ansiVersUnicode(vWD_reponse.getProp(EWDProprie
 WDObjet _WDExpBorneMax0 = new WDEntier4(vWD_donnees.getProp(EWDPropriete.PROP_OCCURRENCE));
 for(WDObjet vWD_i = new WDEntier4(1);vWD_i.opInfEgal(_WDExpBorneMax0);vWD_i.opInc())
 {
-// 			requete..URL = "https://eventsio.mltstudio.tech/api/session/" + donnees[i].id
-vWD_requete.setProp(EWDPropriete.PROP_URL,new WDChaineU("https://eventsio.mltstudio.tech/api/session/").opPlus(vWD_donnees.get(vWD_i).get("id")));
+// 			requete..URL = "https://eventsio.mltstudio.tech/api/session/" + donnees[i].session_id
+vWD_requete.setProp(EWDPropriete.PROP_URL,new WDChaineU("https://eventsio.mltstudio.tech/api/session/").opPlus(vWD_donnees.get(vWD_i).get("session_id")));
 
 // 			reponse = RESTEnvoie(requete)
 vWD_reponse.setValeur(WDAPIHttp.HTTPEnvoie(vWD_requete));

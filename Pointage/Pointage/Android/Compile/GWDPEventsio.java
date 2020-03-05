@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Projet
  * Classe Android : Eventsio
- * Date : 06/02/2020 17:39:30
+ * Date : 05/03/2020 16:24:20
  * Version de wdjava.dll  : 24.0.175.3
  */
 
@@ -108,7 +108,7 @@ ajouterFenetre("FEN_CODEBARRES", mWD_FEN_CODEBARRES);
 ////////////////////////////////////////////////////////////////////////////
 // Déclaration des variables globales
 ////////////////////////////////////////////////////////////////////////////
-public String getVersionApplication(){ return "0.0.9.0";}
+public String getVersionApplication(){ return "0.0.10.0";}
 public String getNomSociete(){ return "";}
 public String getNomAPK(){ return "Pointage";}
 public int getIdNomApplication(){return com.masociete.pointage.R.string.app_name;}
