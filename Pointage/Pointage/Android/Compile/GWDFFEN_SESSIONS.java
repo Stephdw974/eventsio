@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_SESSIONS
- * Date : 07/03/2020 10:52:52
+ * Date : 07/03/2020 11:07:22
  * Version de wdjava.dll  : 24.0.175.3
  */
 
@@ -530,7 +530,7 @@ public  void initialiserObjet()
 {
 super.initialiserObjet();
 super.setFenetre( getWDFenetreThis() );
-super.setRectCompPrincipal(2,2,316,96);
+super.setRectCompPrincipal(2,2,313,96);
 super.setQuid(3307810646926382987l);
 
 super.setChecksum("808796477");
@@ -795,11 +795,11 @@ vWD_infos.setValeur(WDAPIChaine.ansiVersUnicode(vWD_reponse.getProp(EWDPropriete
 // 				ZR_Sessions[ZR_Sessions..Occurrence].LIB_Evenement..Valeur = infos.name
 mWD_ZR_Sessions.get(mWD_ZR_Sessions.getProp(EWDPropriete.PROP_OCCURRENCE)).get("LIB_Evenement").setValeur(vWD_infos.get("name"));
 
-// 				SI infos.user_id <> userID ALORS
-if(vWD_infos.get("user_id").opDiff(vWD_userID))
+// 				SI Val(infos.user_id) <> Val(userID) ALORS
+if(WDAPIChaine.val(vWD_infos.get("user_id")).opDiff(WDAPIChaine.val(vWD_userID)))
 {
-// 					BTN_Session..Visible = Faux
-mWD_ZR_Sessions.mWD_BTN_Session.setProp(EWDPropriete.PROP_VISIBLE,false);
+// 					ZR_Sessions[ZR_Sessions..Occurrence].BTN_Session..Visible = Faux
+mWD_ZR_Sessions.get(mWD_ZR_Sessions.getProp(EWDPropriete.PROP_OCCURRENCE)).get("BTN_Session").setProp(EWDPropriete.PROP_VISIBLE,false);
 
 }
 

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Mar 07 10:55:36 CET 2020
+#Sat Mar 07 11:07:51 CET 2020
 4.path=lib/armeabi-v7a/libwd240vm.so
 13.baseType=DIRECTORY
 8.set=NATIVE_RESOURCE

@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Splash Screen
  * Classe Android : Eventsio
- * Date : 07/03/2020 10:52:52
+ * Date : 07/03/2020 11:07:22
  * Version de wdjava.dll  : 24.0.175.3
  */
 
