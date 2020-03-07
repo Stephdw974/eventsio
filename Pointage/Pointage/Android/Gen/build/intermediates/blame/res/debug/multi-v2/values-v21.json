@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\dupre24u\\Documents\\eventsio\\windev\\Pointage\\Pointage\\Android\\Gen\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\dupre24u\\Documents\\eventsio\\Pointage\\Pointage\\Android\\Gen\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\dupre24u\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb86deae22f1767ac02039a50f7c3eaf\\res\\values-v21\\values-v21.xml",
@@ -61,7 +61,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dupre24u\\Documents\\eventsio\\windev\\Pointage\\Pointage\\Android\\Gen\\res\\values-v21\\theme_material_design.xml",
+                    "source": "C:\\Users\\dupre24u\\Documents\\eventsio\\Pointage\\Pointage\\Android\\Gen\\res\\values-v21\\theme_material_design.xml",
                     "from": {
                         "startLines": "5,2",
                         "startColumns": "4,1",

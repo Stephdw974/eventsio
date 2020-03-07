@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_SCAN
- * Date : 06/02/2020 17:26:48
+ * Date : 07/03/2020 10:52:52
  * Version de wdjava.dll  : 24.0.175.3
  */
 

@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_SESSIONS
- * Date : 05/03/2020 16:24:20
+ * Date : 07/03/2020 10:52:52
  * Version de wdjava.dll  : 24.0.175.3
  */
 
@@ -530,7 +530,7 @@ public  void initialiserObjet()
 {
 super.initialiserObjet();
 super.setFenetre( getWDFenetreThis() );
-super.setRectCompPrincipal(2,2,313,96);
+super.setRectCompPrincipal(2,2,316,96);
 super.setQuid(3307810646926382987l);
 
 super.setChecksum("808796477");

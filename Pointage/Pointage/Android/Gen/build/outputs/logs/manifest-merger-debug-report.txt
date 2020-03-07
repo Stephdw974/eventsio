@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1-4442
-INJECTED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1-4442
-INJECTED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1-4442
-INJECTED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1-4442
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1-4442
+INJECTED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1-4442
+INJECTED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1-4442
+INJECTED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1-4442
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\dupre24u\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\6fb180647d833878d6856945177650ac\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\dupre24u\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\917f6e7a05769cf6ddefe9664b2f2c1c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\dupre24u\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\511ac5277dbb1b2d7e7e4a8eb3570284\AndroidManifest.xml:17:1-22:12
@@ -18,199 +18,199 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\dupre24u\.gradle\cac
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\dupre24u\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\1381e97c59327251c7f5ac9c4838006d\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\dupre24u\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\b4e6f085e84986cb6a47135cf27cf016\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\dupre24u\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6029b392db08d61c7277062102b023ec\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1-4442
-INJECTED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1-4442
-INJECTED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1-4442
+INJECTED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1-4442
+INJECTED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1-4442
+INJECTED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1-4442
 	package
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:70-102
-		INJECTED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml
-		INJECTED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:70-102
+		INJECTED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml
+		INJECTED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:103-133
-		INJECTED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml
-		INJECTED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:103-133
+		INJECTED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml
+		INJECTED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:134-158
-		INJECTED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml
-		INJECTED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:134-158
+		INJECTED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml
+		INJECTED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml
 	android:installLocation
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:159-189
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:159-189
 application
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:190-3843
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:190-3843
 	android:label
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:265-297
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:265-297
 	android:resizeableActivity
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:368-401
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:368-401
 	android:largeHeap
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:342-366
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:342-366
 	android:icon
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:298-341
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:298-341
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:203-264
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:203-264
 activity#com.masociete.pointage.wdgen.GWDPEventsio$WDLanceur
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:402-857
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:402-857
 	android:screenOrientation
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:662-704
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:662-704
 	android:label
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:457-489
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:457-489
 	android:configChanges
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:559-661
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:559-661
 	android:theme
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:490-558
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:490-558
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:412-456
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:412-456
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:705-846
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:705-846
 action#android.intent.action.MAIN
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:720-771
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:720-771
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:728-769
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:728-769
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:771-830
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:771-830
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:781-828
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:781-828
 activity#com.masociete.pointage.wdgen.GWDFFEN_SCAN$WDActiviteFenetre
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:857-1097
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:857-1097
 	android:hardwareAccelerated
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1060-1095
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1060-1095
 	android:configChanges
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:920-1022
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:920-1022
 	android:theme
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1023-1059
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1023-1059
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:867-919
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:867-919
 activity#com.masociete.pointage.wdgen.GWDFFEN_PRESENCE$WDActiviteFenetre
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1097-1384
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1097-1384
 	android:screenOrientation
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1304-1346
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1304-1346
 	android:hardwareAccelerated
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1347-1382
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1347-1382
 	android:configChanges
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1164-1266
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1164-1266
 	android:theme
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1267-1303
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1267-1303
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1107-1163
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1107-1163
 activity#com.masociete.pointage.wdgen.GWDFFEN_CODEBARRES$WDActiviteFenetre
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1384-1673
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1384-1673
 	android:screenOrientation
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1593-1635
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1593-1635
 	android:hardwareAccelerated
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1636-1671
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1636-1671
 	android:configChanges
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1453-1555
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1453-1555
 	android:theme
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1556-1592
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1556-1592
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1394-1452
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1394-1452
 activity#com.masociete.pointage.wdgen.GWDFFEN_GESTION$WDActiviteFenetre
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1673-1959
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1673-1959
 	android:screenOrientation
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1879-1921
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1879-1921
 	android:hardwareAccelerated
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1922-1957
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1922-1957
 	android:configChanges
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1739-1841
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1739-1841
 	android:theme
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1842-1878
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1842-1878
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1683-1738
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1683-1738
 activity#com.masociete.pointage.wdgen.GWDFFEN_SESSIONS$WDActiviteFenetre
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1959-2246
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1959-2246
 	android:screenOrientation
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2166-2208
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2166-2208
 	android:hardwareAccelerated
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2209-2244
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2209-2244
 	android:configChanges
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2026-2128
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2026-2128
 	android:theme
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2129-2165
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2129-2165
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1969-2025
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:1969-2025
 activity#com.masociete.pointage.wdgen.GWDFFEN_ACCUEIL$WDActiviteFenetre
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2246-2532
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2246-2532
 	android:screenOrientation
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2452-2494
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2452-2494
 	android:hardwareAccelerated
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2495-2530
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2495-2530
 	android:configChanges
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2312-2414
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2312-2414
 	android:theme
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2415-2451
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2415-2451
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2256-2311
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2256-2311
 activity#fr.pcsoft.wdjava.ui.activite.WDActivite$BlankActivity
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2532-2720
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2532-2720
 	xmlns:android
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2542-2600
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2542-2600
 	android:theme
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2670-2718
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2670-2718
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2601-2669
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2601-2669
 activity#fr.pcsoft.wdjava.core.erreur.report.WDErrorReportActivity
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2720-2920
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2720-2920
 	xmlns:android
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2730-2788
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2730-2788
 	android:theme
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2862-2918
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2862-2918
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2789-2861
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2789-2861
 activity#fr.pcsoft.wdjava.net.oauth2.WDOAuth2Manager$OAuthActivity
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2920-3063
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2920-3063
 	xmlns:android
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2930-2988
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2930-2988
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2989-3061
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:2989-3061
 activity#fr.pcsoft.wdjava.ui.searchbar.WDSearchActivity
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3063-3407
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3063-3407
 	android:label
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3194-3226
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3194-3226
 	xmlns:android
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3073-3131
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3073-3131
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3132-3193
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3132-3193
 intent-filter#action:name:android.intent.action.SEARCH
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3227-3311
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3227-3311
 action#android.intent.action.SEARCH
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3242-3295
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3242-3295
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3250-3293
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3250-3293
 meta-data#android.app.searchable
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3311-3396
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3311-3396
 	android:resource
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3360-3394
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3360-3394
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3322-3359
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3322-3359
 provider#fr.pcsoft.wdjava.ui.searchbar.WDSearchHistory
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3407-3608
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3407-3608
 	android:authorities
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3562-3606
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3562-3606
 	android:exported
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3537-3561
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3537-3561
 	xmlns:android
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3417-3475
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3417-3475
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3476-3536
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3476-3536
 service#fr.pcsoft.wdjava.core.service.WDServiceLocal
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3608-3678
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3608-3678
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3617-3676
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3617-3676
 meta-data#fr.pcsoft.first_window_name
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3678-3761
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3678-3761
 	android:value
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3732-3759
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3732-3759
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3689-3731
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3689-3731
 meta-data#fr.pcsoft.multidex
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3761-3829
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3761-3829
 	android:value
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3806-3827
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3806-3827
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3772-3805
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3772-3805
 uses-sdk
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3843-3911
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3843-3911
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\dupre24u\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\6fb180647d833878d6856945177650ac\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\dupre24u\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\6fb180647d833878d6856945177650ac\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\dupre24u\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\917f6e7a05769cf6ddefe9664b2f2c1c\AndroidManifest.xml:20:5-44
@@ -240,42 +240,42 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\dupre24u\.gradle\c
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\dupre24u\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6029b392db08d61c7277062102b023ec\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\dupre24u\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6029b392db08d61c7277062102b023ec\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3880-3909
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3880-3909
 	android:minSdkVersion
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3853-3879
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3853-3879
 supports-screens
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3911-4070
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3911-4070
 	android:largeScreens
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3986-4013
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3986-4013
 	android:smallScreens
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3929-3956
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3929-3956
 	android:normalScreens
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3957-3985
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:3957-3985
 	android:xlargeScreens
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4014-4042
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4014-4042
 	android:anyDensity
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4043-4068
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4043-4068
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4070-4145
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4070-4145
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4087-4143
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4087-4143
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4145-4204
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4145-4204
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4162-4202
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4162-4202
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4204-4265
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4204-4265
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4221-4263
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4221-4263
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4265-4353
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4265-4353
 	android:required
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4328-4351
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4328-4351
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4279-4327
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4279-4327
 uses-feature#android.hardware.camera
-ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4353-4431
+ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4353-4431
 	android:required
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4406-4429
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4406-4429
 	android:name
-		ADDED from C:\Users\dupre24u\Documents\eventsio\windev\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4367-4405
+		ADDED from C:\Users\dupre24u\Documents\eventsio\Pointage\Pointage\Android\Gen\AndroidManifest.xml:2:4367-4405
